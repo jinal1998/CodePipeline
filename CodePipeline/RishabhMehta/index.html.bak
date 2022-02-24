@@ -75,7 +75,7 @@
 				<div class="icon">
 					<a href="#" id="location"><img src="images/location.png"><p>Location</p></a>
 				</div>
-				<div class="icon" style="display:none">
+				<div class="icon">
 					<a href="#" id="bank details"><img src="images/pay.png"><p>Bank Details</p></a>
 				</div>
 				<div class="icon">
