@@ -1,0 +1,416 @@
+*{padding:0px;margin:0px;}
+
+
+@font-face {
+    font-family: 'Geometr415 Blk BT';
+    src: url('../font/Geometric415BT-BlackA.eot');
+    src: local('../font/Geometric 415 Black BT'), local('../font/Geometric415BT-BlackA'),
+        url('../font/Geometric415BT-BlackA.eot?#iefix') format('embedded-opentype'),
+        url('../font/Geometric415BT-BlackA.woff2') format('woff2'),
+        url('../font/Geometric415BT-BlackA.woff') format('woff'),
+        url('../font/Geometric415BT-BlackA.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+h1, h2{margin:0px !important;}
+.col-md-5, .col-lg-7{padding:0px !important;}
+/*********** background images ************/
+
+.hex-bg{background:url(../images/bg.png) no-repeat;background-size:100% 100%; width:400px;height:auto;margin:0 auto;}
+.row{margin:0px !important;}
+
+/* .poligon1{text-align:center;}
+.poligon1 img{width:200px;height:100px;}
+.logo-right{text-align:center;}
+.logo-right img{width:245px;height:68px;}
+ 
+
+logo with background */
+.logo-head{width:100%;text-align:center;padding-top:0px;}
+.logo-inner{background:#fff;padding:2px 2px;}
+.logo-inner img{width:100%; height:60px;} 
+
+/*********** picture circle round *****************/
+
+.icn-poly{padding-top:20px;}
+.lft-lg{text-align:center;padding:10px 0 0 0px;}
+.lft-lg1{background:url(../images/profilebg.png) no-repeat;background-size:100% 100%;position:absolute;
+		width:171px;height:171px;z-index:-1;top:-3px;left:111px;
+		}
+.lft-lg2{background:url(../images/behindlogo.png) no-repeat;background-size:100% 100%;
+		width:130px;height:130px;z-index:-1;margin-top:-205px;left:80px;
+		}
+.poligon {
+  display: inline-block;
+  position: relative;
+  width: 125px;
+  height: 125px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  -webkit-clip-path: circle(50%);
+  clip-path: circle(50%);
+  top:-60px;
+  left:10px;
+}
+.poligon img {
+ 
+  width: 119px;
+  height: 122px; 
+  -webkit-clip-path: circle(50%);
+  clip-path: circle(50%);
+  margin-top:1px;
+  
+} 
+
+
+
+/* .lft-lg{padding:20px 0 0 0px;width:100%;display:inline-block;text-align:center;position:relative;} */
+.poligon1 {
+  display: inline-block;
+  position: relative;
+  width: 178px;
+  height: 178px;
+ 
+}
+.poligon1 img {
+  position: absolute;
+  top: 0px; 
+  left: -87px;
+  width: 95px; 
+  height: 90px; 
+  
+  }
+
+.lft-name1{background: url(../images/pp.png) no-repeat;background-size:100% 100%;width:300px;height:60px;position:relative;top:15px;left:50px;}
+
+.lft-name{display:inline-block;position:absolute;text-align:center;width:230%;top:-5px;left:-80px;}
+.lft-name h1{font-size:16px;color:#fff;font-weight:500;text-transform:uppercase;font-family:Geometr415 Blk BT;}
+.lft-name h2{font-size:9px;color:#fff;font-weight:300;text-transform:uppercase;letter-spacing:1px;font-family:Geometr415 Blk BT;}
+ 
+
+/* .lft-name{text-align:center;padding-top:0px;padding-left:10px;}
+.lft-name h1{font-size:30px;font-family:Arial;color:#1d4c91;padding-bottom:5px;}
+.lft-name h1 span{text-transform:uppercase;font-weight:600;font-family:Arial;}
+.lft-name h2{font-size:20px;font-family:Arial;color:BLACK	;font-weight:500;}
+ */
+
+/************** description paragraph section **********/
+
+.abt-sect{padding:30px 40px 0 40px;}
+.para .ex3 {background-color: #171415;box-shadow:1px 0px 9px 1px #ffffff8c;width: 100%;height: 150px;overflow: hidden;border-radius:10px;padding:5px 10px 0 10px;color:#fff;}
+
+/************** icon section **********/
+
+/* .icn{padding:40px 40px 0 40px;} */
+/* .icon-sect1{background: rgb(255 255 255 / 20%);box-shadow: 1px 0px 20px 10px #ffffff3b;border-radius:20px;height:397px;} */
+
+
+/* icon section to get icon on left and right side of page
+.icon-sect{position:absolute;left:10px;top:80px;}
+.icon{padding:15px 0px;width:100%;text-align:center;}
+.icon a img{width:63px;height:63px;}
+
+.icon-sect11{position:absolute;right:10px;top:80px;}
+.icon{padding:15px 0px;width:100%;text-align:center;}
+.icon a img{width:63px;height:63px;}
+
+.icon a p{font-size:13px;font-weight:500;color:#fff; margin:0px !important;padding-top:0px;font-family:Bahnschrift;}
+.icon a:hover{text-decoration:none;color:#fff;}
+
+ */
+/********* link fb inst and etc ********/
+
+
+.icon-sect{text-align:center;padding:0px 10px 0px 10px;position:relative;top:-50px;}
+.icon{padding:8px 10px;float:left;width:32.3%;}
+.icon a img{width:50px;height:50px;}
+.icon a p{color:white; margin:0px !important;padding-top:5px;text-align:centre;font-family:Geometr415 Blk BT;font-size:12px;}
+.icon a:hover{text-decoration:none;color:#2c468d;}
+
+
+
+.scl-pic{padding-left:50px;padding-bottom:80px;}
+.scl-pic img{width:35px;height:35px;padding-top:-290px;padding-left:1px;}
+/* .scl-pic .youtube img{width:25px;height:20px;} */
+
+/************* my card logo *******************/
+
+
+.cnt-logo {position:absolute;right:5px;bottom:5px;}
+.cnt-logo img{width:45px;height:40px;margin-left:19px;}
+/*************** name animated section *****************/
+
+
+
+
+
+
+/* social icons and mycart logo
+
+
+************ my card logo ******************
+
+.logo{}
+.cnt-logo {text-align:right;padding-right:10px;}
+.cnt-logo img{width:60px;height:24px;}
+
+.social{padding:530px 0 0 0;}
+.scl-pic{text-align:center;padding: 10px 0;background:#000;}
+.scl-pic img{width:30px;height:30px;margin:0px 8px;}
+.scl-pic .fb img{width:36px;height:34px;} */
+
+
+/********** share popup **********/
+
+.modal-body {
+	padding: 30px 0 !important;
+	text-align: center;
+	font-size: 20px;
+}
+
+.modal-title {
+	font-size: 16px;
+	color: #221f1f;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-family: arial;
+}
+
+	.modal-title button span {
+		color: #000;
+		font-size: 24px;
+	}
+
+.modal-body a img {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
+
+/********** gallery popup **********/
+.icn-popup1 .modal-body .pop-up-gallery img {
+	float: none;
+	margin: 0 0 1em 0 !important;
+}
+
+.icn-popup1 .modal-body .pop-up-gallery1 {
+	width: 50%;
+	float: left;
+}
+
+.modal-body .form-group {
+	width: 90% !important;
+	display: inline-block;
+	text-align: left;
+	font-size: 16px;
+}
+
+
+@media only screen and (min-width: 780px) and (max-width: 1020px) and (min-height: 800px) {
+   
+	.hex-bg{width:100%;margin:0px auto 0px;height:auto;background-size: 100% 100%;overflow:hidden}
+	
+	/* .poligon1 img{width: 350px;
+    height: 180px;
+    
+    } */	
+    .logo-head{padding-top:0px;}
+	.logo-inner img{width:100%;height:150px;} 
+	.logo-right img {
+    width: 474px;
+    height: 140px;
+}
+	 .lft-lg .lft-lg1{width: 372px !important;
+    height: 383px !important;position:absolute;left:290px; }
+	.poligon {top:-150px;height:310px;width:310px;left:550px;}
+	.poligon img{width: 303px;height: 303px;margin-top:3px;}
+	.lft-lg2{width: 300px;
+    height: 300px;margin-top:-430px;}
+	
+
+	.lft-lg{padding-top:30px;}
+	.prof-poly{padding-left:100px;}
+	.poligon1 {width: 380px;height: 380px;}
+	.poligon1 img{top:10px;left:-240px;width:210px;height: 200px;}
+
+	.lft-name1{width:500px;height:150px;top:0px;left:22px;}
+	.lft-name{padding:20px 10px;top:0px;left:-270px;width:500px;}
+	.lft-name h1{font-size:38px;}
+	.lft-name h2{font-size:20px;padding-top:10px;letter-spacing:3px;} 
+	/* 
+	icon section to get icon on left and right side of image
+	.icon-sect {top:130px;left:15px;}
+	.icon-sect11 {top:130px;right:15px;}
+	.icon {padding:15px 0;}
+	.icon a img{width:140px;height:140px;}
+	.icon a p{font-size:30px;padding-top:0px;} */
+   .icon-sect {padding:-20px 10px 10px 10px;top:-110px;}
+	.icon {padding: 5px 0px;}
+	.icon a img{width:140px;height:140px;}
+	.icon a p{font-size:26px;padding-top:0px;font-family:Geometric 415 Black BT;}
+	.bot-icon{padding:0 60px;}
+	.scl-pic{padding-left:60px;padding-top:-120px;padding-bottom:240px;}
+	.social h1{font-size:40px;line-height: 90px;}
+	.scl-pic img{width:125px;height:auto;padding-left:40px;}
+	.scl-pic .youtube img{width:70px;height:auto;margin:0 40px;}
+	
+	.fr1{width:40%;float:left;}
+	.sec1{width:60%;float:right;}
+	.fr{width:50%;float:left;}
+	.sec{width:50%;float:right;}
+	
+	/* social icons and mycart logo
+	.social{padding-top:887px;}
+	.scl-link-bottom{padding-right:45px;height:78px;}
+	.scl-pic{padding:0px 0px;}
+	.scl-pic img{width:75px;height:auto;margin:0px 20px;}
+	
+	.fr{width:80%;float:left;}
+	.sec{width:20%;float:right;}
+	.logo{right:60px;bottom:10px;}
+	.cnt-logo img{width:105px; height:auto;}
+	 */
+	.cnt-logo {position:absolute;right:5px;bottom:5px;}
+	.cnt-logo img{width:100px; height:110px;padding-top:10px;padding-bottom:10px;margin-left:45px;}
+	
+		/********** share Popup ***********/
+
+	.modal-dialog {
+		width: 100% !important;
+		margin: 0px !important;
+	}
+
+	.modal-title {
+		font-size: 40px;
+	}
+
+	.modal-body a img {
+		width: 110px;
+		height: 110px;
+	}
+
+	.modal-header .close {
+		opacity: 1 !important;
+	}
+
+
+	.modal-title button span {
+		font-size: 83px;
+		opacity: 1 !important;
+		line-height: 80px;
+	}
+	/********** gallery Popup ***********/
+
+	.icn-popup1 .modal-body .pop-up-gallery img {
+		width: 90%;
+		margin: 30px 0 !important;
+	}
+
+	.icn-popup1 .modal-body .pop-up-gallery p {
+		font-size: 40px;
+		line-height: 35px;
+	}
+
+	.icn-popup1 .modal-body .pop-up-gallery1 img {
+		width: 90%;
+		margin: 30px 0 !important;
+	}
+
+	.icn-popup1 .modal-body .pop-up-gallery1 p {
+		font-size: 40px;
+		line-height: 35px;
+	}
+
+	.form-group .form-control {
+		height: 90px !important;
+		font-size: 35px !important;
+	}
+
+	.modal-body .form-group {
+		font-size: 35px !important;
+	}
+
+	.modal-footer .btn {
+		padding: 13px 40px;
+		font-size: 35px;
+	}
+
+	/********************* End changes popup and gallery part over heare *******************************/
+	
+	
+}
+@media only screen and (max-width: 780px) and (min-width: 360px) and (min-height: 800px) {
+ .hex-bg{width:100%;margin:0px;height: auto;}
+
+}
+
+@media only screen and (min-width: 1020px) {
+ .hex-bg{width:400px;margin:0px auto 0px;height: auto;}
+
+}
+
+@media only screen and (max-width: 360px) and (min-width: 240px) and (min-height: 800px) {
+ .hex-bg{width:100%;margin:0px auto 0px;height: auto;}
+
+}
+
+@media only screen and (min-width: 384px) and (max-width: 400px) and (min-height: 640px) {
+
+}
+
+.hex-bg {
+	position: relative;
+}
+
+.print-link {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+@media print {
+	*, *:before, *:after {
+		color: #000 !important;
+	}
+
+	.hex-bg {
+		background: url(../images/bg.jpg) no-repeat !important;
+		background-size: 100% 100% !important;
+	}
+	.fr{width:40%;float:left;}
+	.sec{width:60%;float:right;}
+	.lft-name h1, .lft-name h2{color:#000 !important;}
+	/* .scl-head h1{color:#fff !important;} */
+	.icon1 a p, .icon a p{color:#fff !important;}
+	
+	.para .ex3{color:#fff !important;}
+	@page {
+		size: 400px 842px;
+		margin: 0;
+	}
+
+	a[href]:after {
+		content: "";
+	}
+	p{padding-left:10px !important;}
+	.icon a, .print-link {
+		display: block;
+	}
+}
+	
+
+
+
+
+
+
+
+
+
